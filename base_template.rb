@@ -4,6 +4,7 @@ gem_group :development do
   gem 'quiet_assets'
   gem 'better_errors'
   gem 'annotate', '>=2.6.0'
+  gem 'bullet'
 end
 
 gem_group :test do
