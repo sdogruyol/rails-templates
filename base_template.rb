@@ -5,6 +5,7 @@ gem_group :development do
   gem 'better_errors'
   gem 'annotate', '>=2.6.0'
   gem 'bullet'
+  gem 'faker'
 end
 
 gem_group :test do
