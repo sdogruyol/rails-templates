@@ -14,4 +14,4 @@ For example to bootstrap your app with the base_template.
 ![webBox.io](https://avatars2.githubusercontent.com/u/4940563?s=140)
 
 
-# # Maintained by [webBox.io](http://www.webbox.io)  and contributors like you. Thank you!
+### Maintained by [webBox.io](http://www.webbox.io)  and contributors like you. Thank you!
