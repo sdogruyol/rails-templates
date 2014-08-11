@@ -6,6 +6,7 @@ gem_group :development do
   gem 'annotate', '>=2.6.0'
   gem 'bullet'
   gem 'faker'
+  gem 'lol_dba'
 end
 
 gem_group :test do
