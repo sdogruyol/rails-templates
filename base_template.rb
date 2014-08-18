@@ -1,3 +1,7 @@
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
 gem_group :development do
   gem 'capistrano', '2.15.2'
   gem 'rvm-capistrano'
@@ -11,15 +15,10 @@ end
 
 gem_group :test do
   gem 'minitest'
-  gem 'rspec-rails'
   gem 'guard-rspec', require: false
   gem 'capybara'
   gem 'shoulda'
   gem 'factory_girl_rails'
-end
-
-gem_group :production do
-  gem 'unicorn'
 end
 
 run 'bundle install'
