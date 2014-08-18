@@ -21,4 +21,5 @@ gem_group :test do
   gem 'factory_girl_rails'
 end
 
+run 'bundle config build.nokogiri --use-system-libraries'
 run 'bundle install'
