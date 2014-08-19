@@ -21,5 +21,6 @@ gem_group :test do
   gem 'factory_girl_rails'
 end
 
+# You should really install libxml and other required libraries system-wide
 run 'bundle config build.nokogiri --use-system-libraries'
 run 'bundle install'
