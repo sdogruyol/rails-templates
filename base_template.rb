@@ -24,3 +24,4 @@ end
 # You should really install libxml and other required libraries system-wide
 run 'bundle config build.nokogiri --use-system-libraries'
 run 'bundle install'
+run 'bundle exec rails g rspec:install'
