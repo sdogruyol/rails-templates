@@ -25,3 +25,4 @@ end
 run 'bundle config build.nokogiri --use-system-libraries'
 run 'bundle install'
 run 'bundle exec rails g rspec:install'
+run 'guard init'
