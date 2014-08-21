@@ -23,7 +23,7 @@ end
 
 # You should really install libxml and other required libraries system-wide
 run 'bundle config build.nokogiri --use-system-libraries'
-if yes?('Do you want to install your bundle to vendor/bundle?')
+if yes?('Do you want to install your bundle to vendor/bundle? (yes/no)')
   run 'bundle install --path vendor/bundle'
 else
   run 'bundle install'
