@@ -23,6 +23,10 @@ end
 
 # You should really install libxml and other required libraries system-wide
 run 'bundle config build.nokogiri --use-system-libraries'
-run 'bundle install'
+if yes?('Do you want to install your bundle to vendor/bundle?')
+  run 'bundle install --path vendor/bundle'
+else
+  run 'bundle install'
+end
 run 'bundle exec rails g rspec:install'
 run 'guard init'
