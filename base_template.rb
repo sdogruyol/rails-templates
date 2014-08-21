@@ -1,5 +1,6 @@
 gem_group :development, :test do
   gem 'rspec-rails', '~> 3.0.0'
+  gem 'factory_girl_rails'
 end
 
 gem_group :development do
@@ -18,7 +19,6 @@ gem_group :test do
   gem 'guard-rspec', require: false
   gem 'capybara'
   gem 'shoulda'
-  gem 'factory_girl_rails'
 end
 
 # You should really install libxml and other required libraries system-wide
