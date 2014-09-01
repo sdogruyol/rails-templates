@@ -18,6 +18,7 @@ gem_group :test do
   gem 'minitest'
   gem 'guard-rspec', require: false
   gem 'capybara'
+  gem 'capybara-webkit'
   gem 'shoulda'
 end
 
